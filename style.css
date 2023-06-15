@@ -180,3 +180,25 @@ body {
 #infik {
   color: white;
 }
+
+.fixedbu {
+  height: 40px;
+  background: #64b3f4;
+  border: none;
+  box-shadow: 0px 0px 20px black;
+
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  transition: 0.5s;
+}
+
+.fixedbu a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.fixedbu:hover {
+  opacity: 0.6;
+}
